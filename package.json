@@ -1,0 +1,24 @@
+{
+  "name": "@danwkennedy/generator-node",
+  "version": "0.0.1",
+  "description": "A node module generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/danwkennedy/generator-node.git"
+  },
+  "keywords": [
+    "node",
+    "yeoman",
+    "generator"
+  ],
+  "author": "Daniel Kennedy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danwkennedy/generator-node/issues"
+  },
+  "homepage": "https://github.com/danwkennedy/generator-node#readme"
+}
