@@ -20,7 +20,7 @@ function run {
   # npm run changelog
 
   echo "-- Committing, tagging and pushing package.json and CHANGELOG.md"
-  git commit package.json CHANGELOG.md -m "release: version $VERSION"
+  git commit package.json -m "release: version $VERSION"
   git tag -f $VERSION
   git push -q origin master
   git push -q origin $VERSION
