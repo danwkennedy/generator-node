@@ -1,6 +1,6 @@
 {
   "name": "generator-node-base",
-  "version": "0.1.0",
+  "version": "0.5.0",
   "description": "A node module generator",
   "files": [
     "app",
