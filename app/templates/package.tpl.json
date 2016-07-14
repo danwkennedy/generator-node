@@ -1,0 +1,16 @@
+{
+  "name": "<%= projectName %>",
+  "version": "0.0.1",
+  "main": "<%= main %>",
+  "engines": {
+    "node": ">=6.3.0"
+  },
+  "scripts": {
+    "start": "NODE_ENV=production node <%= main %>",
+    "dev": "NODE_ENV=development nodemon --inspect -L <%= main %> | bunyan",
+    "test": "NODE_ENV=test mocha ./src --recursive",
+    "coverage": "NODE_ENV=test istanbul cover --config ./.istanbul.yml  _mocha -- ./src --recursive --reporter xunit --reporter-options output=build/xunit.xml",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -w -a",
+    "style-check": "eslint ."
+  }
+}
